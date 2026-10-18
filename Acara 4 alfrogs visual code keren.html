@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistem Informasi Statistik Kabupaten Cirebon</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #222;
+        }
+
+        .container {
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        /* BAGIAN HEADER */
+        .header {
+            height: 140px;
+            border-bottom: 1px solid black;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 150px;
+            text-align: center;
+        }
+
+        .logo img {
+            width: 100px;
+            height: auto;
+        }
+
+        .judul {
+            flex: 1;
+            text-align: center;
+        }
+
+        .judul h1 {
+            margin: 5px;
+            font-size: 30px;
+        }
+
+        .judul h2 {
+            margin: 5px;
+            font-size: 24px;
+            font-style: italic;
+            font-weight: normal;
+        }
+
+        /* BAGIAN ISI */
+        .content {
+            display: flex;
+        }
+
+        /* MENU SAMPING */
+        .sidebar {
+            width: 180px;
+            border-right: 1px solid black;
+            padding: 15px;
+        }
+
+        .sidebar h3 {
+            margin-top: 0;
+        }
+
+        .sidebar p {
+            margin: 10px 0;
+        }
+
+        /* BAGIAN TABEL */
+        .main {
+            flex: 1;
+            padding: 15px;
+        }
+
+        .main h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 7px;
+        }
+
+        th {
+            text-align: center;
+            background-color: #eeeeee;
+        }
+
+        td:first-child {
+            text-align: center;
+        }
+
+        td:nth-child(3),
+        td:nth-child(4) {
+            text-align: center;
+        }
+
+        /* KETERANGAN */
+        .keterangan {
+            margin-top: 20px;
+        }
+
+        .keterangan h3 {
+            margin-bottom: 5px;
+        }
+
+        /* FOOTER */
+        .footer {
+            border-top: 1px solid black;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-logo {
+            width: 180px;
+        }
+
+        .footer-logo img {
+            width: 130px;
+        }
+
+        .footer-text {
+            border-left: 1px solid black;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+
+        <div class="logo">
+            <img src="logo cirebon.jpg" alt="Logo Kabupaten Cirebon">
+        </div>
+
+        <div class="judul">
+            <h1>SISTEM INFORMASI STATISTIK</h1>
+            <h2>KABUPATEN CIREBON</h2>
+        </div>
+
+    </div>
+
+
+    <!-- ISI WEBSITE -->
+    <div class="content">
+
+        <!-- MENU SAMPING -->
+        <div class="sidebar">
+
+            <h3>Data Statistik</h3>
+
+            <p>Geografi dan Iklim</p>
+            <p>Pemerintahan</p>
+            <p><b>Penduduk</b></p>
+            <p>Sosial</p>
+            <p>Pertanian</p>
+            <p>Industri</p>
+            <p>Pariwisata dan Keuangan</p>
+
+        </div>
+
+
+        <!-- BAGIAN UTAMA -->
+        <div class="main">
+
+            <h2>Tabel Penduduk Menurut Kecamatan</h2>
+
+            <table>
+
+                <tr>
+                    <th>No</th>
+                    <th>Kecamatan</th>
+                    <th>Jumlah Penduduk<br>(Ribu Jiwa)</th>
+                    <th>Kepadatan Penduduk<br>(Jiwa/km²)</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Waled</td>
+                    <td>58,6</td>
+                    <td>1.904</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Pasaleman</td>
+                    <td>27,7</td>
+                    <td>671</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Ciledug</td>
+                    <td>48,1</td>
+                    <td>3.287</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Pabuaran</td>
+                    <td>38,9</td>
+                    <td>4.065</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>Losari</td>
+                    <td>67,8</td>
+                    <td>1.414</td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>Pabedilan</td>
+                    <td>62,7</td>
+                    <td>2.429</td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td>Babakan</td>
+                    <td>77,2</td>
+                    <td>3.484</td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td>Gebang</td>
+                    <td>74,5</td>
+                    <td>2.112</td>
+                </tr>
+
+                <tr>
+                    <td>9</td>
+                    <td>Karangsembung</td>
+                    <td>38,1</td>
+                    <td>2.025</td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td>Karangwareng</td>
+                    <td>30,0</td>
+                    <td>1.104</td>
+                </tr>
+
+            </table>
+
+
+            <!-- KETERANGAN DI BAWAH TABEL -->
+            <div class="keterangan">
+
+                <h3>Keterangan:</h3>
+
+                <ul>
+                    <li>
+                        Data jumlah penduduk dan kepadatan penduduk
+                        bersumber dari Badan Pusat Statistik Kabupaten Cirebon.
+                    </li>
+
+                    <li>
+                        Data merupakan data tahun 2025 dan disajikan
+                        berdasarkan kecamatan di Kabupaten Cirebon.
+                    </li>
+
+                    <li>
+                        Jumlah penduduk dinyatakan dalam ribu jiwa,
+                        sedangkan kepadatan penduduk dinyatakan dalam jiwa/km².
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="footer">
+
+        <div class="footer-logo">
+
+            <img src="logo bps.jpg" alt="Logo BPS">
+
+        </div>
+
+        <div class="footer-text">
+
+            <b>Sumber Data:</b><br>
+
+            Badan Pusat Statistik Kabupaten Cirebon<br>
+
+            Kabupaten Cirebon Dalam Angka 2025<br>
+
+            Data Penduduk Menurut Kecamatan
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
